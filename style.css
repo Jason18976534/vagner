@@ -1,0 +1,262 @@
+body {
+    background-color: #0F121C;
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.page {
+    width: calc(100% - 160px) !important;
+    padding: 40px 80px;
+    max-height: calc(100vh - 80px);
+    background-image: linear-gradient(0deg, rgba(14, 19, 32, 0.05), rgba(14, 19, 32, 0.05)), linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), linear-gradient(360deg, #0F1321 3.54%, rgba(30, 30, 30, 0) 104.7%), url('images/bg-image.png');
+    background-size: cover;
+}
+
+.bg-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.logo-section {
+    max-width: 88px;
+}
+
+.logo-image {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+
+.main-content-section {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.main-content-header {
+    line-height: 56px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.main-content-text {
+    line-height: 36px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.card-page {
+    padding: 40px 80px;
+}
+
+.card-page-text-footer {
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.625rem;
+}
+
+.card {
+    height: 1000px;
+    width: calc(100% / 3 - 1.625rem * 2 / 3 - 0.2px * 6);
+    background: #FFFFFF0F;
+    margin-bottom: 72px;
+    border: 0.2px solid white;
+    position: relative;
+}
+
+.card-image-section {
+    width: 100%;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-header {
+    height: auto;
+    margin-top: -4px;
+    padding: 16px 12px;
+}
+
+.vag-name {
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.vag-years {
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    color: #D03B4D;
+    margin-top: 10px;
+}
+
+.break-line {
+    width: 100%;
+    height: 0.2px;
+    background-color: white;
+}
+
+.card-content {
+    height: 545px;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.card-content-text-1 {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-content-text-2 {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-contnet-text-3 {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.download-button {
+    height: 44px;
+    width: 100%;
+    background-color: #D03B4D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+    align-self: flex-end;
+}
+
+.download-button:hover {
+    cursor: pointer;
+    background-color: #f0596b;
+}
+
+.download-image {
+    height: 24px;
+    margin-left: 4px;
+}
+
+.bottom-content {
+    position: absolute;
+    bottom: 16px;
+    width: calc(100% - 24px);
+}
+
+@media screen and (max-width: 1184px) {
+    .card {
+        height: 1000px;
+        width: calc(100% / 2 - 1.625rem * 2 / 2 - 0.2px * 4);
+    }
+
+    .card-content {
+        height: 490px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .card-section {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .card {
+        height: 870px;
+        width: calc(100%);
+        margin-bottom: 0px;        
+    }
+
+    .card-content {
+        height: 490px;
+    }
+
+    .main-content-header {
+        line-height: 32px;
+        font-size: 24px;
+    }
+
+    .main-content-text {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .main-content-section {
+        margin-top: 8rem;
+    }
+
+    .page {
+        padding: 16px;
+        width: calc(100% - 32px) !important;
+        background-position: 55% center;
+        max-height: calc(100vh - 32px);
+    }
+
+    .logo-section {
+        max-width: 40px;
+    }
+
+    .card-page {
+        padding: 16px;
+    }
+
+    .card-page-text-footer {
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    .card-content-text-1 {
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .card-content-text-2 {
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .card-content-text-3 {
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .vag-name, .vag-years {
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    .download-button {
+        font-size: 16px;
+    }
+}
