@@ -115,6 +115,12 @@ body {
     background-color: white;
 }
 
+.main-content-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #D03B4D;
+}
+
 .card-content {
     height: 545px;
     padding: 16px 12px;
