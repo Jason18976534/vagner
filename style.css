@@ -222,7 +222,7 @@ body {
     .page {
         padding: 16px;
         width: calc(100% - 32px) !important;
-        background-position: 55% center;
+        background-position: 12% 10%;
         max-height: calc(100vh - 32px);
     }
 
